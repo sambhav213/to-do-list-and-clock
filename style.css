@@ -1,0 +1,65 @@
+body{
+    background-color: antiquewhite;
+}
+#parent1{
+    background-image: url('clock.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 50vw;
+    width: 50vw;
+}
+#h{
+    position:absolute;
+    top: 24%;
+    left: 50%;
+    width: 2%;
+    height: 25%;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#min{
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    width: 2%;
+    height: 40%;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#sec{
+    position:absolute;
+    top: 4%;
+    left: 51%;
+    width: 0.5%;
+    height:45%;
+    background-color: black;
+    transform-origin: bottom;
+}
+#Clock{
+    position: relative;
+    padding-left: 40%;
+}
+#heading{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#ToDo{
+    border: 5px solid salmon;
+    border-radius: 5px;
+    border-radius: 5px;
+    width: 195px;
+    text-align: left;
+    box-shadow: 2px 2px;
+
+}
+#itemid{
+    font-size: large;
+    border: 5px solid cyan;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    
+}
